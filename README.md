@@ -1,10 +1,10 @@
 # UN Membership & Voting Records Datasets
 
-A repository of datasets documenting United Nations membership and General Assembly voting records for current and historical member states.
+A repository of datasets documenting United Nations membership and General Assembly voting records for current and historical member states. 
 
 ## Overview
 
-This project aims to provide up-to-date databases of UN member states, including both current members and historical entities such as the USSR. While the UN provides basic membership information on their official websites, these datasets enhance that data by adding ISO country codes as primary keys and including detailed membership timelines. We are building separate datasets on voting records.
+This project aims to provide a set of databases th
 
 ## Features
 
