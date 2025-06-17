@@ -1,30 +1,4 @@
-Skip to content
-Navigation Menu
-hanpeters
-UNGA_Voting_Analysis_Project
-
-Type / to search
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-UNGA_Voting_Analysis_Project
-/
-README.md
-in
-main
-
-Edit
-
-Preview
-
-Show Diff
-UNGA Voting Analysis Project
+# UNGA Voting Analysis Project
 A comprehensive tool for analyzing and comparing voting behavior of UN member states in the General Assembly from 1946 to present.
 
 📋 Overview
