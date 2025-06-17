@@ -1,54 +1,101 @@
-# UN Membership & Voting Records Datasets
+Skip to content
+Navigation Menu
+hanpeters
+UNGA_Voting_Analysis_Project
 
-A repository of datasets documenting United Nations membership and General Assembly voting records for current and historical member states. 
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+UNGA_Voting_Analysis_Project
+/
+README.md
+in
+main
 
-## Overview
+Edit
 
-This project aims to provide a set of databases th
+Preview
 
-## Features
+Show Diff
+UNGA Voting Analysis Project
+A comprehensive tool for analyzing and comparing voting behavior of UN member states in the General Assembly from 1946 to present.
 
-- **Complete membership records**: Current and past UN member states with start and end dates
-- **ISO country codes**: Added as primary keys for efficient searching and dataset joining operations
-- **Voting records**: UN General Assembly (UNGA) voting data for comprehensive analysis
-- **Historical coverage**: Includes defunct states and territorial changes over time
+📋 Overview
+The United Nations publishes voting records for all General Assembly sessions since 1946, but raw data requires preprocessing for meaningful analysis. This project creates clean, standardized datasets and builds analytical tools to explore voting patterns and trends over nearly 80 years of UN history.
 
-## Why This Project?
+Key Challenge Addressed: Existing UN voting datasets suffer from inconsistent country naming conventions, missing historical states, and lack of standardized identifiers, making comparative analysis difficult.
 
-Existing public datasets for UN membership and voting records are often incomplete, outdated, or lack the standardized identifiers needed for data analysis and research. This repository fills that gap by providing clean, well-structured datasets that are ready for academic research, policy analysis, and data visualization projects. The project has just started (June 2025), so it is still work in progress.
+✨ Features
+Data Processing
+Standardized country identifiers: ISO 3166 and UN M49 codes for reliable data joining
+Historical completeness: Includes former member states (USSR, GDR, Yugoslavia, etc.)
+Name harmonization: Resolves country name variations across different time periods
+Continental/regional mapping: Geographic groupings for regional analysis
+Analytical Capabilities
+Voting pattern comparison: Compare any combination of countries across time periods
+Alliance detection: Identify voting blocs and diplomatic coalitions
+Resolution analysis: Examine voting behavior by topic, sponsor, or outcome
+Temporal trends: Track how voting relationships evolve over decades
+Web Interface (Planned)
+Interactive dashboards for non-technical users
+Customizable visualizations and export options
+Real-time data updates as new sessions are published
+🎯 Use Cases
+Academic Research: Political science studies on international relations and multilateral diplomacy
+Policy Analysis: Understanding voting coalitions and diplomatic influence
+Journalism: Data-driven reporting on UN dynamics and country relationships
+Data Science: Training datasets for network analysis and clustering algorithms
+📊 Detailed Project Description
+See separate document 'UNGA Voting Project Description
 
-## Getting Started
+🛠️ Development Roadmap
+ Data collection and cleaning pipeline
+ Historical member state database
+ Interactive web dashboard
+ API for programmatic access
+ Advanced network analysis features
+🤝 Contributing
+Contributions are welcome! Areas where help is particularly needed:
 
-### Data Structure
-Datasets includes:
-- Country/state identifiers (ISO codes, UN codes, names)
-- Membership start and end dates
-- Voting records with resolution details
+Data Quality
 
+Verification of historical membership dates
+Country name standardization improvements
+Missing vote identification and correction
+Technical Development
 
-### Usage Examples
-- Political science research on voting patterns
-- International relations analysis
-- Data visualization of UN dynamics
-- Academic studies on multilateral diplomacy
+Web interface development (React/Vue.js)
+API design and implementation
+Performance optimization for large datasets
+Documentation
 
-## Contributing
+Usage tutorials and examples
+Data methodology documentation
+API reference guides
+📈 Project Status
+Current Phase: Data Processing & Validation (Started June 2025)
 
-We welcome contributions, feedback, and suggestions! Whether you have:
-- Data corrections or additions
-- Technical improvements to the project structure
-- Ideas for additional datasets or features
-- Documentation enhancements
+📄 Data Sources
+UN General Assembly: 2025_03_31_ga_voting_corr1.csv Weblink: https://digitallibrary.un.org/record/4060887?ln=en
+UN Statistics Division: M49 standard country codes
+ISO: ISO 3166-1 country codes
+UN Membership: Official membership chronology
+All data is cross-referenced across multiple official sources to ensure accuracy and completeness.
 
-Please feel free to open an issue or submit a pull request.
+📜 License
+To be determined.
 
-## Data Sources
+📞 Contact
+Issues: Use GitHub Issues for bug reports and feature requests
+Discussions: Use GitHub Discussions for questions and ideas
+Email: jpmpeters@gmail.com
+⭐ Star this repository if you find it useful for your research or projects!
 
-All data is compiled from official UN sources, other publicly available sources and cross-referenced with ISO standards to ensure accuracy and consistency.
-
-
-## Contact
-
-For questions, suggestions, or collaboration opportunities, please send a mail to jpmpeters@gmail.com
-
-
+Editing UNGA_Voting_Analysis_Project/README.md at main · hanpeters/UNGA_Voting_Analysis_Project
